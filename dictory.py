@@ -4,7 +4,7 @@
 # 1. 使用{}创建字典，键值对之间用冒号:分隔，键值对之间用逗号,分隔。 
 # 2. 使用dict()函数创建字典，传入一个序列，序列中的元素必须是元组，或者列表，列表中的元素必须是键值对。
 # 字典
-cityCodes = {'北京': '101010100', '上海': '201100101', '广州': '301010100', '深圳': '401010100'}
+# cityCodes = {'北京': '101010100', '上海': '201100101', '广州': '301010100', '深圳': '401010100'}
 # print(cityCodes)
 # 字典的访问方式
 
@@ -15,6 +15,17 @@ cityCodes = {'北京': '101010100', '上海': '201100101', '广州': '301010100'
 # print(cityCodes)
 
 # 字典的删除方式
-del cityCodes['上海']
-# del cityCodes['001']
-print(cityCodes)
+# del cityCodes['上海']
+# # del cityCodes['001']
+# print(cityCodes)
+
+# 清空字典的元素
+# cityCodes.clear()
+# print(cityCodes)
+
+# 通过用户输入获取城市code
+# city = input("请输入城市名称:")
+# if city in cityCodes:
+#     print("你要查找的城市编码是:" + cityCodes[city])
+# else:
+#     print("没有找到该城市的编码")
