@@ -37,5 +37,5 @@ scores = {'Alice': 89.5678, 'Bob': 92.3456, 'Charlie': 88.1234}
 
 # 方式2 format()方式
 for name, score in scores.items(): 
-    content = """{name}的成绩：{score:.0f}""".format(name= name, score=score)
+    content = """{name}的成绩：{score:.2f}""".format(name= name, score=score)
     print(content)
