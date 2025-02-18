@@ -41,3 +41,5 @@ person = Person('李四', 35)
 # print(person.__name, person.__age)  # 私有属性不能直接访问, 会报错
 # print(person.get_name(), person.get_age())  # 公共方法可以访问私有属性
 person.say_hello()  # 公共方法调用
+
+
